@@ -1,0 +1,71 @@
+/* background*/
+
+body {
+    text-align: center;
+    box-sizing: border-box;
+    height: 900px;
+}
+
+/* top title*/
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+/* maing playing area*/
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 600px;
+    margin-top: 50px;
+    margin-left: 400px;
+}
+
+/* dice rolling area*/
+
+#pressDown {
+    border: 10px solid green;
+    border-radius: 30%;
+
+}.diceArea {
+    height: 300px;
+
+}
+
+/* score display*/
+#score {
+    text-align: center;
+    height: 50px;
+    padding-top:  15px;
+}   
+
+
+/* messages to user box*/
+#msgArea {
+    padding-top: 30px;
+    text-align: center;
+    height: 60px;
+    
+/* imgs settoings */
+
+}
+
+img {
+    border: 15px solid salmon;
+
+}
+
+.centered {
+    padding-top: 30px;
+    text-align: center;
+
+}
+
+#pressDown {
+    border: 10px solid green;
+    border-radius: 30%;
