@@ -4,31 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/main.css">
-    <title>DiceGame</title>
+    <link rel="stylesheet" href="/style.css">
+    <title>RollDiceGame</title>
 </head>
 
 <body>
+
+    <img src="" alt="">
+
     <header>
-        <h1>Press space bar</h1><img id="pressDown" src="/img/hand-gif-animation-5.gif" alt="pressDowm" width="10%">
+        <div id="hide">
+            <ul class="top">
+                <li><img id="right" src="/img/arrow.png" alt="right" width="150px"></li>
+                <li><img class="pressDown"  src="/img/hand-gif-animation-5.gif" width="150px" alt="pressDowm"></li>
+                <li><button class="Button"></button><img id="left" src="/img/arrow2.png" alt="" width="150px"></li>
+            </ul>
+        </div>
     </header>
 
 
     <div class="main">
 
-        <div id="score">scoring area</div>
+        <div id="score"> </div>
+
 
         <div class="diceArea">
-
-        <p class="centered">
-            <img src="/img/dice1.png" alt="dice image">
-        </p>
-
+            
+                <img id="dice" src="/img/dice0.png" alt="dice image" width="15%">
+            
         </div>
 
-        <div id="msgArea">message area</div>
 
 
+        <div id="msgArea"></div>
     </div>
 
     <footer>
