@@ -1,50 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="/style.css">
-    <title>RollDiceGame</title>
+
+    <title>Dice it!</title>
 </head>
 
 <body>
 
-    <img src="" alt="">
-
-    <header>
-        <div id="hide">
-            <ul class="top">
-                <li><img id="right" src="/img/arrow.png" alt="right" width="150px"></li>
-                <li><img class="pressDown"  src="/img/hand-gif-animation-5.gif" width="150px" alt="pressDowm"></li>
-                <li><button class="Button"></button><img id="left" src="/img/arrow2.png" alt="" width="150px"></li>
-            </ul>
-        </div>
-    </header>
-
-
-    <div class="main">
-
-        <div id="score"> </div>
-
-
-        <div class="diceArea">
-            
-                <img id="dice" src="/img/dice0.png" alt="dice image" width="15%">
-            
-        </div>
-
-
-
-        <div id="msgArea"></div>
+    <div class="diceImgDiv">
+    <img id="frame" src="/img/dice0.png " alt="dice face">
     </div>
 
-    <footer>
+    <header>
+        <h1>Reach 20 points with out hitting dice number 1!</h1>
+    </header>
 
-    </footer>
+    <br>
+
+    <div class="buttons">
+        <button type="button" class="roll">Roll!</button>
+        <button type="reset" class="reset" value="clear">Reset</button>
+    </div>
+
+    <br>
+
+    <h2 class="dice"></h2>
+
+    <br>
+
+    <h2 class="score"></h2>
+
+    <p class="msg"></p>
 
 
-    <script src="script.js"></script>
+
+    <script src="/script.js"></script>
+
 </body>
 
 </html>
