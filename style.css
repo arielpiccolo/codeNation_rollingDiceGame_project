@@ -1,129 +1,68 @@
-/* background*/
-
-.top {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: space-evenly;
-
+html {
+    background-color: darkolivegreen;
 }
 
-#right, #left {
-    animation: jello-horizontal 5s infinite forwards;
-}
-
-body {
-    margin-top: 100px;
+header {
     text-align: center;
-    box-sizing: border-box;
-    height: 900px;
-}
-
-/* maing playing area*/
-
-main {
-    height: 600px;
-    margin-top: 50px;
-}
-
-/* dice rolling area*/
-
-#pressDown {
-    border: 20px solid green;
-}
-
-.pressDown:hover {
-    border-radius: 100px;
-}
-
-
-
-.diceArea {
-    height: 300px;
-    margin-left: 5px;
-
-}
-
-/* score display*/
-#score {
     color: tomato;
-    font-size: 5rem;
+    text-shadow: black 2px 2px;
+}
+
+.reset,
+.roll {
+    display: inline-block;
+    margin-left: 450px;
+}
+
+button {
+    width: 150px;
+    height: 150px;
+}
+
+.msg {
+    font-family: fantasy;
+    color: orangered;
+    font-size: 2rem;
+    padding-top: 66px;
     text-align: center;
-    height: 50px;
-    padding-top: 14px;
-    padding-bottom: 70px;
-    padding-left: 30px;
+    height: 30px;
+    text-shadow: black 2px 2px;
+
 }
 
 
-/* messages to user box*/
-#msgArea {
-    color: green;
-    font-size: 5rem;
+.score {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: aqua;
+    display: block;
     text-align: center;
-    padding-top: 60px;
-    height: 50px;
-    padding-left: 40px;
-}
-
-/*  images settings*/
-
-
-#dice {
-    margin-left: 30px;
-    border: 25px solid salmon;
-
+    text-shadow: black 2px 2px;
 
 }
 
-.pressDown {
-    border: 15px solid forestgreen;
+
+.dice {
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: aqua;
+    display: block;
+    text-align: center;
+    text-shadow: black 2px 2px;
 
 }
 
-.pressDown:active {
-    border: 15px solid darkgoldenrod;
-    border-radius: 5%;
+h2 {
+    display: block;
+    text-shadow: black 2px 2px;
+
 }
 
+#frame {
+    position: relative;
+    left: 500px auto;
+    top: 5px;
 
-
-.Button {
-    width: 0.1px;
-    color: transparent;
-    border: none;
-    height: 01px;
 }
-
-
-footer {
-    display: none;
-}
-
-
-/* visuals*/
-
-@keyframes jello-horizontal {
-    0% {
-      transform: scale3d(1, 1, 1);
-    }
-    30% {
-      transform: scale3d(1.25, 0.75, 1);
-    }
-    40% {
-      transform: scale3d(0.75, 1.25, 1);
-    }
-    50% {
-      transform: scale3d(1.15, 0.85, 1);
-    }
-    65% {
-      transform: scale3d(0.95, 1.05, 1);
-    }
-    75% {
-      transform: scale3d(1.05, 0.95, 1);
-    }
-    100% {
-      transform: scale3d(1, 1, 1);
-    }
-  }
-  
