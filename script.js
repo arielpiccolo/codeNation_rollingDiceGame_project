@@ -26,7 +26,7 @@ roll.addEventListener('click', () => {
     };
 
     if (total >= winningNumber) {
-        msg.innerHTML = "You scored over 20 points with out hitting the #1, you won!!!     -       >>> hit Reset to start over <<<";
+        msg.innerHTML = "You scored over 20 points without hitting the #1, you won!!!     -       >>> hit Reset to start over <<<";
         roll.style.visibility = 'hidden';
     };
 
